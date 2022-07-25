@@ -10,7 +10,7 @@ public class Main {
         double sum = 0;
         for (int i : array) {
             if (i > 0)
-                sum += i; // сумма всех положительных
+                sum += i;
         }
         double countPlus = 0;// ЭТО ИЗМЕНЕНИЯ (Кстати я добавил числа 22 и 48 вначале)!!!!!!!!!!!!!!!!!!!
         int j = 0;
