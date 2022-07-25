@@ -12,22 +12,22 @@ public class Main {
             if (i > 0)
                 sum += i; // сумма всех положительных
         }
-        double countPlus = 0;
+        double countPlus = 0;// ЭТО ИЗМЕНЕНИЯ (Кстати я добавил числа 22 и 48 вначале)!!!!!!!!!!!!!!!!!!!
         int j = 0;
         for (int h :array) {
-            if (h < 0) {
+            if (h < 0) { // Это полож. числа которые ДО первого отриц  (22,48).!!
                 break;
             }
-                if (h > 0) {
+                if (h > 0) { // Это сколько ИХ полож. ДО первого отриц  (2).
                     countPlus++;
                 }
 
             System.out.println(countPlus);
-            j += h;
+            j += h; // Здесь я плюсовал ВСЕ полож. числа ДО первого отриц (22+48).
 
     }
-        double len = countPositives(array) - countPlus;
-        double newSum = sum - j;
+        double len = countPositives(array) - countPlus;// Здесь я минусовал ВСЕ полож.числа и числа ДО первого отриц!!!!
+        double newSum = sum - j;// Тоже самое что и числа    (СУММА!!!!)
         System.out.println("Среднее арифметическое:" + newSum / len); // среднее арифметическое: 31 (можете изменить чиcла)
 
     }
