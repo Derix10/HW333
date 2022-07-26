@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        int[] array = {22,48, -5, -3, 22, 15, -33, 9, -6, -43, 35, 11, -18, 44, 89, 23, -53};
+        int[] array = {45,785,22,48, -5, -3, 22, 15, -33, 9, -6, -43, 35, 11, -18, 44, 89, 23, -53};
 
         double sum = 0;
         for (int i : array) {
@@ -22,7 +22,6 @@ public class Main {
                     countPlus++;
                 }
 
-            System.out.println(countPlus);
             j += h; // Здесь я плюсовал ВСЕ полож. числа ДО первого отриц (22+48).
 
     }
